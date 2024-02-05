@@ -1,0 +1,49 @@
+.catalogue-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+}
+
+.search-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+input {
+  padding: 8px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.movie-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 15px;
+}
+
+.movie {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.movie img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+.movie button {
+  margin-top: 10px;
+}

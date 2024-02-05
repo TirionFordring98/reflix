@@ -1,0 +1,11 @@
+.navbar a {
+  margin-top: 10px !important;
+  margin-left: 10px !important;
+  color: #fff;
+  text-decoration: none;
+  margin-right: 16px;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: cursive;
+  display: inline-block;
+}

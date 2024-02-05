@@ -1,0 +1,10 @@
+.disabled-button {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.disabled-message {
+  font-size: 12px;
+  color: red;
+  margin-left: 5px;
+}

@@ -1,0 +1,39 @@
+.landing-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f7f7f7;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.user-boxes {
+  display: flex;
+  justify-content: center;
+}
+
+.user-box {
+  padding: 20px;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.user-box:nth-child(1) {
+  background-color: lightblue;
+}
+
+.user-box:nth-child(2) {
+  background-color: lightgreen;
+}
+
+.user-box:nth-child(3) {
+  background-color: lightcoral;
+}
